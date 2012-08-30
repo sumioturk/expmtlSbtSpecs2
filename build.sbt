@@ -1,9 +1,16 @@
-name := "sbt-project-example"
+name := "expmtlSbtSpecs2"
 
-version := "0.0.1-SNAPSHOT"
+version := "1.0"
 
 scalaVersion := "2.9.1"
 
-organization := "sumioturk int'l"
+resolvers ++= Seq(
+  "Specs2 Repo" at "http://oss.sonatype.org/content/repositories/releases"
+)
 
+libraryDependencies := Seq(
+  "org.specs2" %% "specs2" % "1.11" % "test",
+  "org.scala-tools.testing" %% "scalacheck" % "1.9",
+  "org.mockito" % "mockito-all" % "1.9.0"
+)
 
