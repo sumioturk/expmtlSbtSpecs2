@@ -6,7 +6,7 @@ case class Car(name: String, var fuel: Int) extends Vehicle {
   var y = 0
 
   def moveUp(){
-    y += 1
+    y += 2
     fuel -= 1
   }
 
