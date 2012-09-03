@@ -1,7 +1,7 @@
 package models
 
 /**
- * 
+ * @author Chen Shen Nu
  * @param name
  * @param fuel
  */
