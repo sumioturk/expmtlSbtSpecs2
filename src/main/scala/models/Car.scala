@@ -1,5 +1,10 @@
 package models
 
+/**
+ * 
+ * @param name
+ * @param fuel
+ */
 case class Car(name: String, var fuel: Int) extends Vehicle {
 
   var x = 0
